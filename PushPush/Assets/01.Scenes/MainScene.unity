@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.172768, g: 0.21589167, b: 0.29782546, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -154,7 +154,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapObjectPrefab:
   - {fileID: 1987040833165387, guid: 5f1199bfd62a87445aebba5c46f0e588, type: 3}
-  textAsset: {fileID: 4900000, guid: 0c62ea1ba2508c3429c2b5478d038a50, type: 3}
+  - {fileID: 6600259927115862359, guid: 9765513135e95224594b219f129cf4a7, type: 3}
+  - {fileID: 2474683434148642335, guid: f465e4b27602e914abc47050d75261ae, type: 3}
+  - {fileID: 7695473326600316209, guid: f3d1f47359ec70a42a3380534f74d936, type: 3}
+  - {fileID: 2995416856588080268, guid: 1bb13e2b82a2ba142a895a19598dbab9, type: 3}
+  textAsset: {fileID: 4900000, guid: a596f1bbe11cccd4a948cbaa0503f298, type: 3}
+  mapObject: 0
 --- !u!4 &110720702
 Transform:
   m_ObjectHideFlags: 0
@@ -256,14 +261,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1240925353}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1864764521
 GameObject:
   m_ObjectHideFlags: 0
@@ -340,8 +345,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1864764521}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.70710677, y: -0, z: 0.000000052154064, w: 0.7071068}
+  m_LocalPosition: {x: 3.9286838, y: 6.34149, z: 5.4996247}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
